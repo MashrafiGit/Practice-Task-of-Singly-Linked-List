@@ -12,7 +12,7 @@ First of all, a linked list needs a node, which is an object that contains both 
 On the other hand, an array only needs one data type to store each value, and the memory locations are managed internally and sequentially.  
 So, since a linked list uses more types of data (value + pointer), it ends up using more memory.
 
----
+----
 
 #### ❓ 2. Write down Three Limitations of the array which can be solved by the use of Linked List
 
@@ -23,14 +23,14 @@ Here listed some limitations of the array which can be solved by the use of link
 - **Array Limitation:** An array requires a block of contiguous (sequential) memory, which can be difficult to allocate especially when memory is fragmented.
 - **Limited Flexibility:** Arrays have limited flexibility in terms of dynamic operations like inserting, deleting, or resizing. Also, inserting elements in sorted order or in specific positions is complex.
 
----
+----
 
 #### ❓ 3. What is the value of Head?
 
 **Answer:**  
 Head is the first index (or starting pointer) of a linked list. It stores the memory address of the first node.
 
----
+----
 
 #### ❓ 4. What is the value of `?` marked address location?
 
@@ -41,7 +41,7 @@ If a node has `Next = ?`, then `?` is actually the address of the node that come
 For example:  
 If a node contains `Value = 10`, `Next = ?`, and the next node is at address `1040`, then `? = 1040`.
 
----
+----
 
 #### ❓ 5. What will be the value of `Head->Next->Next->Value`?
 
@@ -50,7 +50,7 @@ If a node contains `Value = 10`, `Next = ?`, and the next node is at address `10
 Start from `Head`, move to the next node, then again move to the next node, and finally access the `value` stored there.  
 So it returns the **value of the third node** in the linked list.
 
----
+----
 
 #### ❓ 6. What will be the value of `Sum` following the pseudocode snippets?
 
