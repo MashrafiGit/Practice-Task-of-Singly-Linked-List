@@ -12,7 +12,7 @@ First of all, a linked list needs a node, which is an object that contains both 
 On the other hand, an array only needs one data type to store each value, and the memory locations are managed internally and sequentially.  
 So, since a linked list uses more types of data (value + pointer), it ends up using more memory.
 
-<hr style="border: none; height: 1px; background-color: #ccc;" />
+<hr style="border: none; height: .5px; background-color: #ccc;" />
 
 #### ❓ 2. Write down Three Limitations of the array which can be solved by the use of Linked List
 
